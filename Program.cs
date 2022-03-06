@@ -19,8 +19,8 @@ namespace InventoryDataManagementDemo
                 Console.WriteLine(data.typesofRice[i].name);
                 Console.WriteLine(data.typesofRice[i].price);
                 Console.WriteLine(data.typesofRice[i].weight);
-                //int dataofPulses = data.typesofRice[i].price * data.typesofRice[i].weight;
-                //Console.WriteLine("The Price of "+ data.typesofRice[i].name+" for "+ data.typesofRice[i].weight+" kg is "+dataofPulses);
+                int dataofPulses = data.typesofRice[i].price * data.typesofRice[i].weight;
+                Console.WriteLine("The Price of " + data.typesofRice[i].name + " for " + data.typesofRice[i].weight + " kg is " + dataofPulses);
                 Console.WriteLine("--------------------------");
             }
 
@@ -30,6 +30,8 @@ namespace InventoryDataManagementDemo
                 Console.WriteLine(data.typesofPulses[i].name);
                 Console.WriteLine(data.typesofPulses[i].price);
                 Console.WriteLine(data.typesofPulses[i].weight);
+                int dataofPulses = data.typesofPulses[i].price * data.typesofPulses[i].weight;
+                Console.WriteLine("The Price of " + data.typesofPulses[i].name + " for " + data.typesofPulses[i].weight + " kg is " + dataofPulses);
                 Console.WriteLine("--------------------------");
             }
 
@@ -39,6 +41,8 @@ namespace InventoryDataManagementDemo
                 Console.WriteLine(data.typesofWheat[i].name);
                 Console.WriteLine(data.typesofWheat[i].price);
                 Console.WriteLine(data.typesofWheat[i].weight);
+                int dataofPulses = data.typesofWheat[i].price * data.typesofWheat[i].weight;
+                Console.WriteLine("The Price of " + data.typesofWheat[i].name + " for " + data.typesofWheat[i].weight + " kg is " + dataofPulses);
                 Console.WriteLine("--------------------------");
             }
         }
